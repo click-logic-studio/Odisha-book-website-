@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odisha Book | Official Teaching Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="bg-canvas"></canvas>
+
+    <header>
+        <nav class="glass-nav">
+            <div class="logo-container">
+                <img src="logo.png" alt="Odisha Book Logo" class="main-logo">
+                <span class="brand-name">ODISHA BOOK</span>
+            </div>
+            <div class="lang-switch">
+                <button class="lang-btn active" onclick="switchLang('en')">English</button>
+                <button class="lang-btn" onclick="switchLang('or')">ଓଡ଼ିଆ</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-content glass-card">
+                <h1 id="main-headline" data-en="Empowering the Next Generation of Teachers" data-or="ପରବର୍ତ୍ତୀ ପିଢ଼ିର ଶିକ୍ଷକମାନଙ୍କୁ ସଶକ୍ତ କରିବା">
+                    Empowering the Next Generation of Teachers
+                </h1>
+                <p id="hero-desc" data-en="Comprehensive Odia teaching resources for students and aspiring educators." data-or="ଛାତ୍ରଛାତ୍ରୀ ଏବଂ ଆଶାୟୀ ଶିକ୍ଷକମାନଙ୍କ ପାଇଁ ବ୍ୟାପକ ଓଡ଼ିଆ ଶିକ୍ଷାଦାନ ସମ୍ବଳ |">
+                    Comprehensive Odia teaching resources for students and aspiring educators.
+                </p>
+                <a href="https://www.youtube.com/@OdishaBook-q1t" target="_blank" class="btn-primary" data-en="Visit YouTube Channel" data-or="ୟୁଟ୍ୟୁବ୍ ଚ୍ୟାନେଲ୍ ପରିଦର୍ଶନ କରନ୍ତୁ">
+                    Visit YouTube Channel
+                </a>
+            </div>
+        </section>
+
+        <section class="details-grid">
+            <div class="detail-box glass-card">
+                <div class="icon">📚</div>
+                <h3 data-en="Latest Syllabus" data-or="ନୂତନ ପାଠ୍ୟକ୍ରମ">Latest Syllabus</h3>
+                <p data-en="We currently cover the complete latest syllabus of the Odisha State Board. High-quality explanations for all subjects." 
+                   data-or="ଆମେ ବର୍ତ୍ତମାନ ଓଡ଼ିଶା ଷ୍ଟେଟ୍ ବୋର୍ଡର ସମ୍ପୂର୍ଣ୍ଣ ସଦ୍ୟତମ ପାଠ୍ୟକ୍ରମ ପ୍ରଦାନ କରୁଛୁ |">
+                   We currently cover the complete latest syllabus of the Odisha State Board. High-quality explanations for all subjects.
+                </p>
+            </div>
+
+            <div class="detail-box glass-card gold-border">
+                <div class="icon">🚀</div>
+                <h3 data-en="Coming Soon" data-or="ଶୀଘ୍ର ଆସୁଛି">Coming Soon</h3>
+                <p data-en="Expansion to other State Boards and specialized preparation for OTET, B.Ed, and other competitive teaching exams." 
+                   data-or="ଅନ୍ୟାନ୍ୟ ଷ୍ଟେଟ୍ ବୋର୍ଡ ଏବଂ OTET, B.Ed ଏବଂ ଅନ୍ୟାନ୍ୟ ପ୍ରତିଯୋଗିତାମୂଳକ ଶିକ୍ଷାଦାନ ପରୀକ୍ଷା ପାଇଁ ବିଶେଷ ପ୍ରସ୍ତୁତି |">
+                   Expansion to other State Boards and specialized preparation for OTET, B.Ed, and other competitive teaching exams.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
